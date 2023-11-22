@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+.heading {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: #3A3845;
+    line-height: 1;
+    margin: 0;
+}
+.div-align{
+    margin: auto;
+}
+.sub-heading{
+    color: #3A3845;
+}
+.resume-div{
+    width: 89%;
+}
+.resume-card{
+    background-color: #F9F7F7;
+    border-radius: 1.5rem;
+    margin-bottom: 20px;
+}
+.radius {
+    border-radius: 8px;
+}
+.unordered-list{
+    display: inline-block;
+    padding-left: 10%;
+}
+.list{
+    float: right;
+    padding: 0;
+    padding-right: 10%;
+}
+.list1{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.07rem;
+    color: #3A3845;
+}
+.list1::before{
+    content: "\00BB";
+    padding: 5px;
+}
+
+
+
+/* socials */
+.socials {
+    position: relative;
+    margin-top: 9rem;
+}
+
+.socials .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.socials .social-icons li {
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 44px;
+    color: #00d9ff;
+    background-color: #09011b;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #0685da;
+}
+
+.social-icons a.github:hover {
+    background-color: #0e0e0e;
+}
+
+.social-icons a.twitter:hover {
+    background-color: #00aced;
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6;
+}
+
+/* social icons end */
+
+/* hero media queries starts*/
+@media (max-width: 450px) {
+    .home .btn {
+        margin: 4rem 0;
+    }
+
+    .socials {
+        margin-top: 12rem;
+    }
+
+    .home .image img {
+        margin-top: -12rem;
+    }
+
+    .home .content p {
+        font-size: 2.2rem;
+    }
+
+    .home .content p span {
+        font-size: 2.2rem;
+    }
+}
+
+.nav-bold {
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.navbar-padding {
+    padding: 0;
+}
+
+.font {
+    font-family: 'Lobster', cursive;
+}
+
+.line {
+    width: 70%;
+    border-top: 6px double black;
+    margin: auto;
+}
+
+.quote {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.colors {
+    color: rgb(49, 45, 45);
+}
+
+.card-margin {
+    margin: 0;
+}
+
+.text-alignment {
+    display: block;
+    text-align: end;
+}
+
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 0.7;
+}
+
+.hr-text:before {
+    content: "";
+    background: linear-gradient(to right, transparent, #111110, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 3px;
+}
+
+.hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    color: black;
+    background-color: #fcfcfa;
+}
+
+.padd {
+    padding: 1.25rem;
+}
+
+.card-color {
+    background-color: #F9F7F7;
+    padding: 8px;
+}
+
+.button-color {
+    color: white;
+}
+
+/* contact me */
+.contact {
+    background: #EEEEEE;
+    min-height: 60vh;
+}
+
+.contact .container {
+    max-width: 1050px;
+    width: 100%;
+    background: #F9F7F7;
+    border-radius: 1.5rem;
+    margin: 2rem 5rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contact .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 2rem;
+}
+
+.contact .content .image-box {
+    max-width: 50%;
+    margin-left: 4rem;
+}
+
+.contact .content .image-box img {
+    width: 100%;
+    height: 25rem;
+    position: relative;
+}
+
+.contact .content form {
+    width: 45%;
+    margin-right: 3.5rem;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-group .field {
+    height: 50px;
+    display: flex;
+    position: relative;
+    margin: 1rem;
+    width: 100%;
+}
+
+form i {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+form .field input,
+form .message textarea {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 16px 0 48px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(51, 51, 51);
+    background: #e5ecfb;
+}
+
+.field input::placeholder,
+.message textarea::placeholder {
+    color: rgb(51, 51, 51);
+}
+
+.field input:focus,
+.message textarea:focus {
+    padding-left: 47px;
+    border: 2px solid rgb(115, 3, 167);
+}
+
+.field input:focus~i,
+.message textarea:focus~i {
+    color: rgb(115, 3, 167);
+}
+
+form .message {
+    position: relative;
+    margin: 1rem;
+    width: 100%;
+}
+
+form .message i {
+    top: 25px;
+    font-size: 20px;
+    left: 15px;
+}
+
+form .message textarea {
+    min-height: 130px;
+    max-height: 230px;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 12px 20px 0 48px;
+}
+
+form .message textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
+form .button-area {
+    display: flex;
+    float: right;
+    flex-direction: row-reverse;
+}
+
+.button-area button {
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 13px 25px;
+    background: #2506ad;
+    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+    transition: 0.3s ease;
+    font-family: "Nunito", sans-serif;
+}
+
+.button-area button:hover {
+    background: #421cecf5;
+}
+
+.button-area span {
+    font-size: 17px;
+    padding: 1rem;
+    display: none;
+}
+
+.button-area button i {
+    position: relative;
+    top: 6px;
+    left: 2px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.button-area button:hover i {
+    left: 8px;
+}
+
+/* contact section media queries starts */
+@media (max-width: 900px) {
+    .contact {
+        min-height: 70vh;
+    }
+
+    .contact .container {
+        margin: 3rem 0 2rem 0;
+    }
+
+    .contact .container .content {
+        padding: 18px 12px;
+    }
+
+    .contact .content .image-box {
+        display: none;
+    }
+
+    .contact .content form {
+        width: 100%;
+        margin-right: 2rem;
+    }
+}
+/* error page */
+.error-page{
+    padding: 50px;
+    height: 344px;
+}
+.error-bold{
+    font-weight: bold;
+}
+/* footer section */
+
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #cfd2d6;
+}
+
+/*content*/
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer .footer-h6{
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+/*social -media*/
+.socials-footer{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials-footer .footer-li{
+    margin: 0 10px;
+}
+.socials-footer .footer-a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials-footer .footer-a .footer-i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials-footer .footer-a:hover .footer-i{
+    color: dodgerblue;
+}
+/* copyright*/
+
+.footer-copyright .footer-p{
+    font-size: 14px;
+    word-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+}

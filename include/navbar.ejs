@@ -1,0 +1,27 @@
+<nav class="navbar-padding navbar navbar-expand-lg bg-body-tertiary bg-dark">
+    <div class="container-fluid padd bg-dark">
+      <a class="nav-bold navbar-brand text-white" href="/">Portfolio</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a  class="nav-link nav-bold <%= home == true ? 'text-info' : ''; %>" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-bold <%= education == true ? 'text-info' : ''; %>" href="/education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-bold <%= experience == true ? 'text-info' : ''; %>" href="/experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-bold <%= project == true ? 'text-info' : ''; %>" href="/project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-bold <%= contact == true ? 'text-info' : ''; %>" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

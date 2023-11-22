@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ashish Kumar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/69d727b4a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <%- include('../include/navbar'); %>
+    <h1 class="text-center font">Education</h1>
+    <hr class="line">
+    <div class="quote">
+      <h5>“Education is the most powerful weapon which you can use to change the world.”<br> – Nelson Mandela</h5>
+    </div>
+    <hr class="line">
+    <div class = "padd container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/kiet.jpg" class="card-img-top" alt="...">
+            <div class="card-body card-color">
+              <h5 class="card-title">Kiet Group Of Institutions</h5>
+              <p class="card-text card-margin">I am a Bachelor of Technology graduate, specializing in Electronics and Communications. I achieved an outstanding grade point 9.2/10 during my studies. Alongside my academic achievements, I have pursued skills-based learning, completing numerous Udemy courses and tackling over 400+ LeetCode and 200+ GFG questions.</p>
+              <a class="text-alignment" target="_blank" href="https://www.kiet.edu/">more</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">2019 - 2023</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/st johns.jpg" class="card-img-top" alt="...">
+            <div class="card-body card-color">
+              <h5 class="card-title">St John's Sr Sec School</h5>
+              <p class="card-text card-margin">I am a graduate of St John's Sr Sec School, having completed my 12<sup>th</sup> standard in 2019 with a strong academic background in Science. I achieved an impressive percentage of 81.6% and have since continued to pursue my interests in programming, completing courses in C Programming and Ms Excel to further enhance my skills.</p>
+              <a class="text-alignment" target="_blank" href="https://www.stjohnsmeerut.org/">more</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">2018 - 2019</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/st peters.jpg" class="card-img-top" alt="...">
+            <div class="card-body card-color">
+              <h5 class="card-title">St Peter's Academy</h5>
+              <p class="card-text card-margin">I am a graduate of St Peter's Academy with a strong academic record, achieving 75% in my 10<sup>th</sup> standard. I had the privilege of serving as captain of both the cricket and volleyball teams, demonstrating my leadership skills. Additionally, I have developed my computer skills by learning Ms PowerPoint and Ms Word.<br>I am a well-rounded candidate with a passion for excellence.</p>
+              <a class="text-alignment" href="#">more</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">2016 - 2017</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('../include/footer'); %>
+</body>
+</html>
